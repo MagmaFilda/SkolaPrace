@@ -4,17 +4,87 @@
     <meta charset="UTF-8">
     <title>Skola Prace</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <style>
+        .uvod {
+            height: 40vh;
+            background-image: url('https://th.bing.com/th/id/OIP.2F-38JzwJFDzy8an-tzKuAHaEg?w=271&h=180&c=7&r=0&o=7&pid=1.7&rm=3');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
 </head>
 <body>
-<header>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <img src=""> <!-- Tady pak logo -->
+<header class="bg-dark py-2">
+    <div class="container-fluid px-4">
+        <nav class="navbar navbar-dark justify-content-between align-items-center">
+            <a class="navbar-brand fw-bold m-0" href="index.html">
+                <img src="logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+            </a>
 
+            <button class="navbar-toggler m-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto text-center bg-dark rounded mt-2">
+                    <li class="nav-item"><a class="nav-link text-white" href="historie.html">Historie</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="soucasnost.html">Současnost</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="vz-system.html">Vzdělávací systém Bati</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="osudy-absolventu.html">Osudy Absolventů</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="galerie.html">Galerie</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
-  </nav>
 </header>
-
+<section class="d-flex align-items-center justify-content-center text-center text-white uvod">
+    <div>
+        <h1 class="display-4 fw-bold">Baťova škola práce</h1>
+    </div>
+</section>
+<section class="bg-light d-flex align-items-center" style="min-height: 40vh;">
+    <div class="container">
+        <div class="row g-3 text-center">
+            <div class="col-12 col-md-4">
+                <div class="p-3 border rounded h-100">
+                    <h3 class="fw-bold">Historie</h3>
+                    <p>Baťova škola práce vznikla v roce 1925 ve Zlíně jako součást vize Tomáše Bati spojit vzdělání s praxí. Studenti se dopoledne učili a odpoledne pracovali ve firmě, čímž získávali nejen znalosti, ale i pracovní návyky. Výchova byla zaměřená na zodpovědnost, kázeň a samostatnost. Škola se rychle stala prestižní institucí a přitahovala studenty z celého Československa i zahraničí. Absolventi se často stávali vedoucími pracovníky nebo podnikateli. Tento model se stal vzorem moderního odborného vzdělávání.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="p-3 border rounded h-100">
+                    <h3 class="fw-bold">Současnost</h3>
+                    <p>Na odkaz Baťovy školy dnes navazují střední i vysoké školy ve Zlíně, zejména SPŠP-COP a Univerzita Tomáše Bati. Důraz se stále klade na propojení výuky s praxí a rozvoj samostatnosti studentů. Moderní školy spolupracují s firmami a umožňují odborné stáže i podnikatelské projekty. Studenti mají k dispozici kvalitní zázemí, technologie i podporu při inovacích. Zlín zůstává centrem vzdělávání, které čerpá z baťovské tradice. Baťova filozofie tak žije dál v nových formách.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="p-3 border rounded h-100">
+                    <h3 class="fw-bold">Vzdělávací systém</h3>
+                    <p>Vzdělávání podle Bati kladlo důraz na rovnováhu mezi teorií a praxí. Studenti byli vedeni k pracovitosti, odpovědnosti a samostatnému rozhodování. Výuka probíhala nejen ve škole, ale i přímo ve firmě, kde se učili řešit reálné problémy. Klíčovou roli hrály také morální hodnoty jako poctivost a sebekázeň. Systém podporoval podnikavost, jazykové dovednosti a spolupráci mezi žáky. Tento přístup formoval silné osobnosti připravené na praktický život i vedení lidí.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <div class="row justify-content-center mb-3">
+            <div class="col-auto">
+                <a href="historie.html" class="text-white text-decoration-none mx-2">Historie</a>
+                <a href="soucasnost.html" class="text-white text-decoration-none mx-2">Současnost</a>
+                <a href="vz-system.html" class="text-white text-decoration-none mx-2">Vzdělávací systém Bati</a>
+                <a href="osudy-absolventu.html" class="text-white text-decoration-none mx-2">Osudy Absolventů</a>
+                <a href="galerie.html" class="text-white text-decoration-none mx-2">Galerie</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <small class="d-block">&copy; Baťova škola práce</small>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script src="../js/bootstrap.bundle.js"></script>
 </body>
