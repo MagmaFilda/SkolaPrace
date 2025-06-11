@@ -5,6 +5,12 @@
     background-position: center;
 }
 
+.hover-object{
+}
+.hover-object:hover{
+   text-shadow: white 1px 1px 1px;
+}
+
 .custom_image{
     max-height: 300px;
     object-fit: contain;
