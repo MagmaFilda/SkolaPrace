@@ -12,8 +12,19 @@
 }
 
 .custom_image{
-    max-height: 300px;
     object-fit: contain;
+    max-width: 100%;
+    height: auto;
+}
+
+.custom_image:hover{
+    transform: scale(1.05);
+}
+
+.galery-bigger{
+}
+.galery-bigger:hover{
+    transform: scale(1.1);
 }
 
 .vh-40{
