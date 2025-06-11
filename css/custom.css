@@ -1,0 +1,19 @@
+.uvod {
+    height: 40vh;
+    background-image: url('../images/showcase.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.custom_image{
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.vh-40{
+    min-height: 40vh;
+}
+
+.vh-80{
+    min-height: 80vh;
+}
